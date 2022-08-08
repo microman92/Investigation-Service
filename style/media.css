@@ -1,0 +1,246 @@
+@media (max-width:1200px) {
+    .header__content_right-arrow {
+        display: none;
+    }
+
+    .header__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__content_right {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .dectective {
+        gap: 51px;
+    }
+
+    .dectective__left_title {
+        font-size: 40px;
+    }
+
+    .dectective__left_down-title {
+        font-size: 30px;
+    }
+
+    .dectective__left_desc {
+        font-size: 15px;
+    }
+
+    .dectective__right_title {
+        font-size: 24px;
+        margin-left: auto;
+    }
+
+    .dectective__right_desc {
+        text-align: end;
+    }
+
+    .dectective__right {
+        align-items: flex-start;
+    }
+
+    .dectective {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .dectective__right_img-absolute {
+        bottom: -25%;
+        left: 85%;
+        max-width: 250px;
+    }
+
+    .dectective__left {
+        max-width: 527px;
+        text-align: center;
+    }
+
+    .dectective__left_btn {
+        margin-bottom: 40px;
+    }
+
+    .dectective__left_desc {
+        max-width: unset;
+    }
+
+    .dectective {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width:992px) {
+    .nav {
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    .nav .nav__item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav__item .nav__list {
+        gap: 20px;
+    }
+
+    .header__content_left-txt {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .header__content_left-title {
+        text-align: center;
+        font-size: 58px;
+    }
+
+    .header__content_right-img {
+        width: 100%;
+    }
+
+    .claims {
+        flex-direction: column;
+    }
+
+    .claims .claims__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .claims__right {
+        margin-top: 30px;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    .container .nav {
+        margin-top: 30px;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .header .header__content {
+        gap: 70px;
+    }
+
+    .header__content_left .header__content_left-title {
+        max-width: initial;
+        width: 100%;
+        font-size: 33px;
+    }
+
+    .header__content_left .header__content_left-txt {
+        max-width: initial;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .header__content_left img {
+        width: 100%;
+    }
+
+    .header__content_right .header__content_right-icons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header__content_right .header__content_right-icons {
+        margin-bottom: 20px;
+    }
+
+    .header__content_rating {
+        flex-direction: column;
+        text-align: center;
+        order: 1;
+    }
+
+    .rating__right {
+        margin-top: 10px;
+    }
+
+    .claims__left .claims__left_title {
+        max-width: 392px;
+        font-size: 33px;
+    }
+
+    .claims .claims__right {
+        grid-gap: 10px 10px;
+    }
+}
+
+@media (max-width:576px) {
+    .dectective__right_img-absolute {
+        max-width: 150px;
+    }
+
+    .dectective__right_img-absolute {
+        display: none;
+    }
+
+    .dectective__right_img {
+        max-width: 350px;
+    }
+
+    .dectective__right_title {
+        margin-left: unset;
+    }
+
+    .dectective__right_desc {
+        text-align: unset;
+    }
+
+    .dectective__right_img {
+        width: 100%;
+    }
+
+    .claims .claims__right {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px 20px;
+    }
+
+    .dectective__right {
+        align-items: center;
+        text-align: center;
+    }
+
+    .dectective__right_title {
+        width: 100%;
+    }
+
+    .dectective__left_title {
+        font-size: 33px;
+    }
+}
+
+@media (max-width:320px) {
+    .dectective__left_title {
+        font-size: 23px;
+    }
+
+    .dectective__left_txt {
+        font-size: 15px;
+    }
+    .dectective{
+        gap: 30px;
+    }
+    .header__content{
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .header .header__content{
+        gap: 40px;
+    }
+    .claims{
+        padding-bottom: 70px;
+    }
+}
